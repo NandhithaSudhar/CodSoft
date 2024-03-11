@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <style>
+        body {
+    background-color: blanchedalmond;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer, section {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+.container img {
+    max-width: 50%;
+    height: auto;
+}
+.container p {
+    flex: 1;
+    padding: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects .project img {
+    width: 100%;
+    min-height: 20%;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+#resume a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+ .navi li {
+    float: right;
+  }
+  
+ .navi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) 
+  {
+    background-color: grey;
+  }
+    </style>
+</head>
+<body>
+    <div class="navi">
+    <ul>
+        <li><a  href="#contact">Contact</a></li>
+        <li><a class="active" href="#resume">Resume</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Project</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+    </div>
+    <header>
+        <h1>Ann Mariam</h1>
+        <p>Web Developer</p>
+    </header>
+    
+    <section id="about">
+        <div class="container">
+            <img src="https://cdn.goodgallery.com/cf0ef39c-1c83-45f8-b905-c091160e555c/r/0480/2fpgxh16/female-professional-portrait-gray-backdrop.jpg" alt="Image">
+            <p><b>ABOUT</b><br><br>Driven by a profound curiosity for the ever-evolving landscape of web development, I am constantly honing my skills and exploring innovative solutions to solve complex problems. From front-end design to back-end architecture, I embrace every aspect of the development process with enthusiasm and tenacity.</p>
+        </div>
+        </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>TRAVEL WEBSITE</h3>
+            <p>Played a key role in developing a dynamic travel website, focusing on user experience and functionality. Utilized frontend technologies to create an intuitive interface for users to explore destinations, book accommodations, and plan itineraries. Collaborated with the team to implement backend functionalities, including user authentication and data management. Resulted in a visually appealing and user-friendly platform for travelers to discover and plan their adventures seamlessly.</p>
+            <img src="https://www.bootstrapdash.com/blog/wp-content/uploads/2023/07/f1a31767-cc11-4bb8-bc58-2c17f6c3e35a.png" alt="Project 1">
+        </div>
+        <div class="project">
+            <h3>E-COMMERCE WEBSITE</h3>
+            <p>Contributed to the development of an e-commerce website, focusing on creating a seamless shopping experience for users. Implemented frontend design elements to enhance product visibility and user engagement. Collaborated with the team to integrate backend functionalities such as payment gateways and order management systems. Resulted in a user-friendly platform for customers to browse, purchase, and track orders efficiently.</p>
+            <img src="https://www.cloudways.com/blog/wp-content/uploads/macys.png" alt="Project 2">
+        </div>
+    </section>
+    <section id="skills">
+        <center>
+        <h2>Skills</h2>
+        <ul>
+            <b>
+            <li>HTML</li>
+            <br>
+            <li>CSS</li><br>
+            <li>JavaScript</li><br>
+            <li>React</li><br>
+            </b>
+        </ul>
+        </center>
+    </section>
+    
+    <section id="resume">
+        <center>
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume</a>
+        </center>
+    </section>
+    
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Email: annmariam@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+    </footer>
+</body>
+</html>
